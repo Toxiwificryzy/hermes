@@ -12,12 +12,12 @@ If you're only interested in using pre-built Hermes in a new or existing React N
 
 If you want to know how to build and hack on Hermes directly, and/or integrate Hermes built from source into a React Native app then read on.
 
-The instructions here very briefly cover steps to build the Hermes CLI. They assume you have typical native development tools setup for your OS, and support for cmake and Ninja. For more details of required dependencies, building Hermes with different options, etc. follow these links instead:
+Las instrucciones aquí cubren muy brevemente los pasos para construir la CLI de Hermes. Asumen que tiene la configuración típica de herramientas de desarrollo nativas para su sistema operativo y soporte para cmake y Ninja. Para obtener más detalles sobre las dependencias requeridas, compilar Hermes con diferentes opciones, etc., siga estos enlaces:
 
-* [Building and Running Hermes](doc/BuildingAndRunning.md)
-* [Using a custom Hermes build in a React Native app](doc/ReactNativeIntegration.md#using-a-custom-hermes-build-in-a-react-native-app)
+* [Construyendo y eliminando Hermes] (doc/BuildingAndRunning.md)
+* [Uso de una compilación personalizada de Hermes en una aplicación React Native] (doc/ReactNativeIntegration.md#using-a-custom-hermes-build-in-a-react-native-app)
 
-To build a local debug version of the Hermes CLI tools the following steps should get you started on macOS/Linux:
+Para crear una versión de depuración local de las herramientas Hermes CLI, los siguientes pasos deberían ayudarlo a comenzar en macOS/Linux:
 
 ```shell
 mkdir hermes_workingdir
